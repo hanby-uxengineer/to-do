@@ -6,4 +6,4 @@ const chosenImage = images[Math.floor(Math.random() * images.length)];
 const bgImage = document.createElement("img");
 bgImage.src = chosenImage;
 
-document.body.prepend(bgImage); // appendChild
+document.body.appendChild(bgImage); // prepend
